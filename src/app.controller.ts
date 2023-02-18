@@ -18,16 +18,18 @@ import * as fs from 'fs';
 import csvParser from 'csv-parser';
 
 import { unlink } from 'fs/promises';
+import { CreateTaskDto } from './dto/create-task.dto';
 
 @Controller('tasks')
 export class AppController {
   constructor(private readonly taskService: TaskService) {}
 
   @Post()
-  async createTask(@Body() payload: any) {
-    console.log({ payload });
-
-    return this.taskService.createTask(payload);
+  async createTask(@Body() payload: CreateTaskDto) {
+    return this.taskService.createTask({
+      title: payload.title,
+      description: payload.description,
+    });
   }
 
   @Patch('/complete/:id')
