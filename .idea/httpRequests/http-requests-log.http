@@ -3,6 +3,468 @@ Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
+<> 2023-02-18T140828.200.json
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+<> 2023-02-18T134713.500.json
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+<> 2023-02-18T134243.500.json
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+<> 2023-02-18T134223.500.json
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+<> 2023-02-18T133912.500.json
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+<> 2023-02-18T133858.500.json
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+<> 2023-02-18T133732.500.json
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+<> 2023-02-18T133710.500.json
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+<> 2023-02-18T133454.500.json
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+<> 2023-02-18T133113.201.json
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+Content-Length: 336
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< /home/daviribeiro/projects/personal/task-service-crqs-event-sourcing/temp/file.csv
+--boundary--
+
+###
+
+GET http://localhost:3001/tasks
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
 <> 2023-02-18T131508.200.json
 
 ###
@@ -217,376 +679,6 @@ User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-02-18T130400.200.json
-
-###
-
-POST http://localhost:3001/tasks
-Content-Type: application/json
-Content-Length: 75
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
- "title": "Fazer bolo",
- "description": "Preparar massa, assar e comer"
-}
-
-###
-
-GET http://localhost:3001/tasks
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-18T130139.200.json
-
-###
-
-PUT http://localhost:3001/tasks/a8d8d767-a4a0-4856-847d-16807975cb39
-Content-Type: application/json
-Content-Length: 74
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito", "description": "Assar os biscoitos e comer"
-}
-
-<> 2023-02-18T130123.500.json
-
-###
-
-GET http://localhost:3001/tasks
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-18T130118.200.json
-
-###
-
-PUT http://localhost:3001/tasks/a8d8d767-a4a0-4856-847d-16807975cb39
-Content-Type: application/json
-Content-Length: 74
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito", "description": "Assar os biscoitos e comer"
-}
-
-###
-
-GET http://localhost:3001/tasks
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-18T130059.200.json
-
-###
-
-POST http://localhost:3001/tasks
-Content-Type: application/json
-Content-Length: 75
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
- "title": "Fazer bolo",
- "description": "Preparar massa, assar e comer"
-}
-
-###
-
-PUT http://localhost:3001/tasks/916aa725-a435-4706-9109-d4c859783d73
-Content-Type: application/json
-Content-Length: 74
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito", "description": "Assar os biscoitos e comer"
-}
-
-<> 2023-02-18T125932.500.json
-
-###
-
-GET http://localhost:3001/tasks
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-18T125928.200.json
-
-###
-
-PUT http://localhost:3001/tasks/916aa725-a435-4706-9109-d4c859783d73
-Content-Type: application/json
-Content-Length: 74
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito", "description": "Assar os biscoitos e comer"
-}
-
-###
-
-GET http://localhost:3001/tasks
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-18T125911.200.json
-
-###
-
-POST http://localhost:3001/tasks
-Content-Type: application/json
-Content-Length: 75
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
- "title": "Fazer bolo",
- "description": "Preparar massa, assar e comer"
-}
-
-###
-
-PUT http://localhost:3001/tasks/be1cd13f-8604-44d2-8a99-1c2cac8817c3
-Content-Type: application/json
-Content-Length: 76
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito",
-  "description": "Assar os biscoitos e comer"
-}
-
-<> 2023-02-18T125838.500.json
-
-###
-
-GET http://localhost:3001/tasks
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-18T125834.200.json
-
-###
-
-PUT http://localhost:3001/tasks/be1cd13f-8604-44d2-8a99-1c2cac8817c3
-Content-Type: application/json
-Content-Length: 77
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito",
-  "description:": "Assar os biscoitos e comer"
-}
-
-###
-
-GET http://localhost:3001/tasks
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-18T125800.200.json
-
-###
-
-POST http://localhost:3001/tasks
-Content-Type: application/json
-Content-Length: 75
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
- "title": "Fazer bolo",
- "description": "Preparar massa, assar e comer"
-}
-
-###
-
-PUT http://localhost:3001/tasks/665db8b24-6005-434d-bf06-3b07f65eda29
-Content-Type: application/json
-Content-Length: 77
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito",
-  "description:": "Assar os biscoitos e comer"
-}
-
-<> 2023-02-18T125735.500.json
-
-###
-
-GET http://localhost:3001/tasks
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-18T125716.200.json
-
-###
-
-PUT http://localhost:3001/tasks/65db8b24-6005-434d-bf06-3b07f65eda29
-Content-Type: application/json
-Content-Length: 77
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito",
-  "description:": "Assar os biscoitos e comer"
-}
-
-<> 2023-02-18T125648.500.json
-
-###
-
-PUT http://localhost:3001/tasks/65db8b24-6005-434d-bf06-3b07f65eda29
-Content-Type: application/json
-Content-Length: 77
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito",
-  "description:": "Assar os biscoitos e comer"
-}
-
-<> 2023-02-18T125515.500.json
-
-###
-
-PUT http://localhost:3001/tasks/65db8b24-6005-434d-bf06-3b07f65eda29
-Content-Type: application/json
-Content-Length: 77
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito",
-  "description:": "Assar os biscoitos e comer"
-}
-
-<> 2023-02-18T125508.500.json
-
-###
-
-PUT http://localhost:3001/tasks/65db8b24-6005-434d-bf06-3b07f65eda29
-Content-Type: application/json
-Content-Length: 77
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito",
-  "description:": "Assar os biscoitos e comer"
-}
-
-<> 2023-02-18T125504.500.json
-
-###
-
-GET http://localhost:3001/tasks
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-18T125436.200.json
-
-###
-
-PUT http://localhost:3001/tasks/65db8b24-6005-434d-bf06-3b07f65eda29
-Content-Type: application/json
-Content-Length: 29
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito"
-}
-
-###
-
-GET http://localhost:3001/tasks
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-18T125421.200.json
-
-###
-
-POST http://localhost:3001/tasks
-Content-Type: application/json
-Content-Length: 75
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
- "title": "Fazer bolo",
- "description": "Preparar massa, assar e comer"
-}
-
-###
-
-GET http://localhost:3001/tasks
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-18T125315.200.json
-
-###
-
-PUT http://localhost:3001/tasks/5cf58e90-05f9-4d7a-94a3-11386b0058b3
-Content-Type: application/json
-Content-Length: 29
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"title": "Comer biscoito"
-}
-
-###
-
-GET http://localhost:3001/tasks
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-18T125256.200.json
 
 ###
 

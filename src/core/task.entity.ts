@@ -3,6 +3,7 @@ import { AggregateRoot } from '@nestjs/cqrs';
 import { TaskCompletedEvent } from './events/task-completed.event';
 import { TaskUpdatedEvent } from './events/task-updated.event';
 import { TaskDeletedEvent } from './events/task-deleted.event';
+import { TaskCreatedEvent } from './events/task-created.event';
 
 interface TaskProps {
   title: string;
@@ -21,6 +22,16 @@ export class Task extends AggregateRoot {
     super();
     this.props = props;
     this._id = id ?? randomUUID();
+    this.apply(
+      new TaskCreatedEvent({
+        id: this._id,
+        title: props.title,
+        description: props.description,
+        created_at: props.created_at,
+        updated_at: props.updated_at,
+        completed_at: null,
+      }),
+    );
   }
 
   public get id() {

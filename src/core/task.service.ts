@@ -5,6 +5,7 @@ import { MarkTaskAsCompletedCommand } from './commands/mark-task-as-completed.co
 import { GetAllTasksQuery } from './queries/get-all-tasks.query';
 import { UpdateTaskCommand } from './commands/update-task.command';
 import { DeleteTaskCommand } from './commands/delete-task.command';
+import { CreateManyTasksCommand } from './commands/create-many-tasks.command';
 
 interface CreateTaskInput {
   title: string;
@@ -33,5 +34,9 @@ export class TaskService {
 
   async deleteTask(id: string) {
     return this.commandBus.execute(new DeleteTaskCommand(id));
+  }
+
+  async createManyTasks(payload: CreateTaskInput[]) {
+    return this.commandBus.execute(new CreateManyTasksCommand(payload));
   }
 }

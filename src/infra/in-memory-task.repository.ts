@@ -40,4 +40,8 @@ export class InMemoryTaskRepository implements TaskRepository {
 
     this.tasks.splice(taskIndex, 1);
   }
+
+  async saveMany(tasks: Task[]): Promise<void> {
+    this.tasks = [...this.tasks, ...tasks];
+  }
 }

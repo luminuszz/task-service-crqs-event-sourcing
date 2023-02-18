@@ -1,0 +1,7 @@
+POST http://localhost:3001/tasks/upload
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="csv"; filename="file.csv"
+
+< ../temp/file.csv

@@ -1,5 +1,23 @@
-import { Body, Controller, Delete, Get, Param, Patch, Post, Put } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Delete,
+  Get,
+  HttpCode,
+  Param,
+  Patch,
+  Post,
+  Put,
+  UploadedFile,
+  UseInterceptors,
+} from '@nestjs/common';
 import { TaskService } from './core/task.service';
+import { Express } from 'express';
+import { FileInterceptor } from '@nestjs/platform-express';
+import * as fs from 'fs';
+import csvParser from 'csv-parser';
+
+import { unlink } from 'fs/promises';
 
 @Controller('tasks')
 export class AppController {
@@ -30,5 +48,24 @@ export class AppController {
   @Delete(':id')
   async deleteTask(@Param('id') id: string) {
     return this.taskService.deleteTask(id);
+  }
+
+  @Post('/upload')
+  @HttpCode(204)
+  @UseInterceptors(FileInterceptor('csv', { dest: './temp' }))
+  async uploadFile(@UploadedFile() csv: Express.Multer.File) {
+    const itens: { title: string; description: string }[] = [];
+
+    fs.createReadStream(csv.path)
+      .pipe(csvParser())
+      .on('data', (data) => {
+        itens.push({ title: data.title, description: data.description });
+      })
+      .on('end', async () => {
+        await this.taskService.createManyTasks(itens);
+        await unlink(csv.path);
+      });
+
+    return null;
   }
 }

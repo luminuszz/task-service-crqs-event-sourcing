@@ -10,4 +10,6 @@ export abstract class TaskRepository {
   abstract findAll(filter?: string): Promise<Task[]>;
 
   abstract delete(id: string): Promise<void>;
+
+  abstract saveMany(tasks: Task[]): Promise<void>;
 }
