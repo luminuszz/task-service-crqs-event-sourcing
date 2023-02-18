@@ -7,5 +7,7 @@ export abstract class TaskRepository {
 
   abstract update(task_id: string, task: Partial<Task>): Promise<void>;
 
-  abstract findAll(): Promise<Task[]>;
+  abstract findAll(filter?: string): Promise<Task[]>;
+
+  abstract delete(id: string): Promise<void>;
 }

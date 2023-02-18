@@ -1,0 +1,6 @@
+PUT http://localhost:3001/tasks/146b8158-4771-4f0e-98c9-bdee988c53e9
+Content-Type: application/json
+
+{
+"title": "Comer biscoito", "description": "Assar os biscoitos e comer tewse"
+}

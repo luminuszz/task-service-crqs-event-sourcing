@@ -1,6 +1,8 @@
 import { randomUUID } from 'node:crypto';
 import { AggregateRoot } from '@nestjs/cqrs';
 import { TaskCompletedEvent } from './events/task-completed.event';
+import { TaskUpdatedEvent } from './events/task-updated.event';
+import { TaskDeletedEvent } from './events/task-deleted.event';
 
 interface TaskProps {
   title: string;
@@ -60,5 +62,22 @@ export class Task extends AggregateRoot {
     this.props.completed_at = new Date();
 
     this.apply(new TaskCompletedEvent(this._id));
+  }
+
+  public updateTask(paylload: Partial<{ title: string; description: string }>) {
+    this.props.description = paylload.description ?? this.props.description;
+    this.props.title = paylload.title ?? this.props.title;
+
+    this.apply(
+      new TaskUpdatedEvent({
+        title: this.title,
+        description: this.description,
+        id: this.id,
+      }),
+    );
+  }
+
+  public delete() {
+    this.apply(new TaskDeletedEvent(this.id));
   }
 }

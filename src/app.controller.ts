@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Patch, Post } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Patch, Post, Put } from '@nestjs/common';
 import { TaskService } from './core/task.service';
 
 @Controller('tasks')
@@ -12,7 +12,7 @@ export class AppController {
     return this.taskService.createTask(payload);
   }
 
-  @Patch(':id')
+  @Patch('/complete/:id')
   async markTaskAsCompleted(@Param('id') task_id: string) {
     return this.taskService.markTaskAsCompleted(task_id);
   }
@@ -20,5 +20,15 @@ export class AppController {
   @Get()
   async getAllTasks() {
     return this.taskService.getAllTasks();
+  }
+
+  @Put(':id')
+  async updateTask(@Param('id') id: string, @Body() payload: any) {
+    return this.taskService.updateTask(id, payload);
+  }
+
+  @Delete(':id')
+  async deleteTask(@Param('id') id: string) {
+    return this.taskService.deleteTask(id);
   }
 }

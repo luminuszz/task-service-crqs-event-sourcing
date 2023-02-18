@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TaskService } from './task.service';
-import { Commands } from './commands';
+
 import { Handlers } from './handlers';
 import { CqrsModule } from '@nestjs/cqrs';
 import { TaskRepository } from './contracts/task.repository';
@@ -16,11 +16,11 @@ import { Queries } from './queries';
       useClass: InMemoryTaskRepository,
     },
     TaskService,
-    ...Commands.register(),
     ...Handlers.register(),
     ...Events.register(),
     ...Queries.register(),
   ],
+
   exports: [TaskService],
 })
 export class CoreModule {}
