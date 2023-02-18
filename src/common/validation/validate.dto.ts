@@ -1,8 +1,8 @@
-import { ZodSchema } from 'zod';
+import { z, ZodSchema } from 'zod';
 
-export type ValidateDtoContent<Schema extends ZodSchema> = {
-  new (): Schema['_output'];
-  schema: ZodSchema;
+export type ValidateDtoContent<Schema extends z.Schema> = {
+  new (): z.infer<Schema>;
+  schema: z.ZodSchema;
   create(data: Schema['_output']): Schema['_output'];
 };
 

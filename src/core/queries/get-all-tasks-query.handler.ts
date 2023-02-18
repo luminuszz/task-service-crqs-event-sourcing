@@ -8,10 +8,6 @@ export class GetAllTasksQueryHandler implements IQueryHandler<GetAllTasksQuery> 
   constructor(private readonly taskRepository: TaskRepository) {}
 
   async execute({ filter }: GetAllTasksQuery): Promise<Task[]> {
-    const response = await this.taskRepository.findAll();
-
-    console.log({ response });
-
-    return response;
+    return this.taskRepository.findAll(filter);
   }
 }

@@ -19,6 +19,7 @@ import csvParser from 'csv-parser';
 
 import { unlink } from 'fs/promises';
 import { CreateTaskDto } from './dto/create-task.dto';
+import { UpdateTaskDto } from './dto/update-task.dto';
 
 @Controller('tasks')
 export class AppController {
@@ -43,7 +44,7 @@ export class AppController {
   }
 
   @Put(':id')
-  async updateTask(@Param('id') id: string, @Body() payload: any) {
+  async updateTask(@Param('id') id: string, @Body() payload: UpdateTaskDto) {
     return this.taskService.updateTask(id, payload);
   }
 
